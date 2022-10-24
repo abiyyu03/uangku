@@ -1,0 +1,7 @@
+deployment:
+ 
+ tasks:
+ 
+ - export DEPLOYPATH=/home/lipp7776/public_html/uangku.lipro.tech
+ 
+ - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
